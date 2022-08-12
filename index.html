@@ -7,8 +7,8 @@
     
     <meta property="og:title" content="충북 전통시장"/>
     <meta property="og:image" content="open_image.jpg"/>
-    <meta property="og:url" content="https://cbsmba.github.io/onnuri/"/>
-    <meta property="og:description" content="충북 11개 시군구 전통시장"/>
+    <meta property="og:url" content="https://ovclid.github.io/market_js/"/>
+    <meta property="og:description" content="11개 시군구의 전통시장"/>
 
     <title>충북 전통시장 주소 검색</title>
 
@@ -48,7 +48,7 @@
 
 <body>
     <div>
-        <input id="box" type="text" size="50" onkeypress="javascript:if(event.keyCode == 13) {searchAddress();}"  placeholder="주소 입력창 (기본 : 진천읍 중앙동7길 20)" /> 
+        <input id="box" type="text" size="50" onkeypress="javascript:if(event.keyCode == 13) {searchAddress();}"  placeholder="주소 입력창 (기본 : 상당구 성안로74번길 18-5)" /> 
         <input type="button" value="검색" onclick="searchAddress();" style="background-color: aliceblue;" />
         <button onClick="window.location.reload();">초기화</button>
         <p></p>
@@ -71,7 +71,9 @@
         <script type="text/javascript" src="market_parking_lot.js"></script>
              
         <script>
-            var base_center = new kakao.maps.LatLng(36.858351739006984, 127.44549719302887)
+            //var base_center = new kakao.maps.LatLng(36.858351739006984, 127.44549719302887) // 진천전통시장
+            var base_center = new kakao.maps.LatLng(36.6304322863584, 127.48935094754991) // 청주 육거리시장
+            
             var mapContainer = document.getElementById('map');
             var mapOption = {
                 center: base_center,    // 지도의 중심좌표
@@ -242,7 +244,7 @@
                 
                 var address = document.getElementById("box").value;
                 if (address == '') {
-                    address = "진천읍 중앙동7길 20";
+                    address = "청주시 상당구 남문로1가 255-4";
                 }
                 
                 
