@@ -156,21 +156,22 @@
 
                 // 지도에 다각형을 표시합니다
                 polygon.setMap(map);
-                make_marker(i);
+
+		if (market[i] != "") {
+                	make_marker(i);
+		}
+		else {
+			console.log("여러 구역으로 나뉘어진 전통시장");
+		}
             }
 
-
             function make_marker(i) {
-                var marker = new kakao.maps.Marker({
-                            position: polygonPath[market[i]][0],
-                            clickable: true
-                });    
-                marker.setMap(map);
-
-		if (market[i] == "") {
- 		   	console.log("시장의 중복된 구역명")
-    			return 0;    
-		}
+	        var marker = new kakao.maps.Marker({
+	                        position: polygonPath[market[i]][0],
+	                        clickable: true
+		});    
+	        marker.setMap(map);
+		
 		    
                 //var content = '<div class="click_text"> <address> <a href = "https://map.kakao.com/link/to/'+ market[i] + ',' + loc_Parking_lot[market[i]][0] + ',' + loc_Parking_lot[market[i]][1] + '">' + market[i] + " 카카오 내비" + '</a> </address> </div>';
                 var content = market[i];
