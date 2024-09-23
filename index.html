@@ -157,11 +157,11 @@
                 // 지도에 다각형을 표시합니다
                 polygon.setMap(map);
 
-		if (market[i] != "") {
-                	make_marker(i);
+		if (market[i].includes("구역")) {
+                	console.log("여러 구역으로 나뉘어진 전통시장");
 		}
 		else {
-			console.log("여러 구역으로 나뉘어진 전통시장");
+			make_marker(i);
 		}
             }
 
