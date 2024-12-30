@@ -153,7 +153,7 @@
             var market = Object.keys(polygonPath);  
             for (var i = 0; i < market.length ; i++) {
 		    
-		if (market[i].includes("자율상권")) {
+		if (market[i].includes("자율상권") || market[i].includes("활성화구역")) {
                 	strokeColor_set = '#9b59b6';
 			fillColor_set = '#C39BD3';
 			strokeStyle_set = 'dashed';
@@ -178,7 +178,7 @@
                 // 지도에 다각형을 표시합니다
                 polygon.setMap(map);
 
-		if (market[i].includes("구역")) {
+		if (market[i].includes("-구역")) {
                 	console.log("여러 구역으로 나뉘어진 전통시장");
 		}
 		else {
