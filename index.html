@@ -154,10 +154,14 @@
             for (var i = 0; i < market.length ; i++) {
 		    
 		if (market[i].includes("자율상권")) {
-                	strokeColor_set = '#C39BD3';
+                	strokeColor_set = '#9b59b6';
+			fillColor_set = '#C39BD3';
+			strokeStyle_set = 'dashed';
 		}
 		else {
 			strokeColor_set = '#FF0000';
+			fillColor_set = '#A2FF99';
+			strokeStyle_set = 'line';
 		}
 		    
                 // 지도에 표시할 다각형을 생성
@@ -166,8 +170,8 @@
                     strokeWeight: 3,                // 선의 두께
                     strokeColor: strokeColor_set,         // 선의 색깔
                     strokeOpacity: 0.7,             // 선의 불투명(1 ~ 0: 0에 가까울수록 투명)
-                    strokeStyle: 'line',            // 선의 스타일
-                    fillColor: '#A2FF99',           // 채우기 색깔
+                    strokeStyle: strokeStyle_set,            // 선의 스타일
+                    fillColor: fillColor_set,       // 채우기 색깔
                     fillOpacity: 0.4                // 채우기 불투명
                 });
 
