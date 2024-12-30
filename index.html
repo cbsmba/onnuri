@@ -27,6 +27,19 @@
             /* background-image: url("overlay_bg.png"); */
         }
 
+        .overlay_district {
+            width: '48px';
+            height: '25px';
+            background-color: rgb(244, 251, 177);
+            border-radius: 5px;
+            font-size: 12px;
+            color: rgb(80, 2, 106);
+            font-weight: bold;
+            padding: 2px;
+            /* border: 1px solid blue; */
+            /* background-image: url("overlay_bg.png"); */
+        }
+
         .currentpos_overlay {
             width: '40px';
             height: '18px';
@@ -93,6 +106,7 @@
         <script type="text/javascript" src="market_onnuri.js"></script>
         <script type="text/javascript" src="market_info_desc.js"></script>
 
+
         <script>
             //var base_center = new kakao.maps.LatLng(36.858351739006984, 127.44549719302887)
             let base_Lat = 36.62800617644608;  // 청주(36.62800617644608)   음성무극시장(36.9916485888649;) 영동전통시장(36.17502542411789;) 
@@ -154,11 +168,13 @@
                     strokeColor_set = '#9b59b6';
                     fillColor_set = '#C39BD3';
                     strokeStyle_set = 'dashed';
+                    overlay_css_class = 'overlay_district'
                 }
                 else {
                     strokeColor_set = '#FF0000';
                     fillColor_set = '#A2FF99';
                     strokeStyle_set = 'line';
+                    overlay_css_class = 'overlay'
                 }
 
                 // 지도에 표시할 다각형을 생성
@@ -179,11 +195,11 @@
                     console.log("여러 구역으로 나뉘어진 전통시장");
                 }
                 else {
-                    make_marker(i);
+                    make_marker(i, overlay_css_class);
                 }
             }
 
-            function make_marker(i) {
+            function make_marker(i, overlay_css_class) {
                 var marker = new kakao.maps.Marker({
                     position: polygonPath[market[i]][0],
                     clickable: true
@@ -226,7 +242,7 @@
                 var customOverlay = new kakao.maps.CustomOverlay({
                     map: map,
                     position: polygonPath[market[i]][0],
-                    content: '<div class = "overlay">' + market[i] + '</div>',
+                    content: '<div class = "'+ overlay_css_class + '">' + market[i] + '</div>',
                     yAnchor: 3.0
                 })
             }
