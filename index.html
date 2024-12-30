@@ -435,7 +435,7 @@
 
                 var similar_market_found = false;
                 for (var i = 0 ; i < market.length; i++) {
-                    if ( (market[i].includes(address)) && !(market[i].includes("구역")) ) {   // 시장 이름에 구역이 없어야 함
+                    if ( (market[i].includes(address)) && !(market[i].includes("-구역")) ) {   // 시장 이름에 구역이 없어야 함
                         var newItem = document.createElement("div");
                         newItem.innerHTML = market[i];
                         newItem.onclick = goto_address;
