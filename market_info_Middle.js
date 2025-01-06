@@ -172,10 +172,6 @@ var polygonPath_Middle = {
         ], 
 
   "설성(음성) 골목형상점가" : [ 
-        new kakao.maps.LatLng(36.93249899672512, 127.6946606527894), 
-        new kakao.maps.LatLng(36.93313427520569, 127.6943200606792), 
-        new kakao.maps.LatLng(36.93316438207444, 127.6943614072262), 
-        new kakao.maps.LatLng(36.93322939555573, 127.6943156241948), 
         new kakao.maps.LatLng(36.93328104671632, 127.6945341897027), 
         new kakao.maps.LatLng(36.93364867742692, 127.6945304624621), 
         new kakao.maps.LatLng(36.93374991630134, 127.6942249266736), 
@@ -252,6 +248,10 @@ var polygonPath_Middle = {
         new kakao.maps.LatLng(36.93300268430674, 127.6938320502796), 
         new kakao.maps.LatLng(36.93310431784176, 127.6941766182234), 
         new kakao.maps.LatLng(36.93245408829099, 127.6945182115699), 
+        new kakao.maps.LatLng(36.93249899672512, 127.6946606527894), 
+        new kakao.maps.LatLng(36.93313427520569, 127.6943200606792), 
+        new kakao.maps.LatLng(36.93316438207444, 127.6943614072262), 
+        new kakao.maps.LatLng(36.93322939555573, 127.6943156241948), 
         ],
     
          "삼성면 원도심 자율상권구역(음성)" : [ 
