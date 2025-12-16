@@ -947,7 +947,7 @@ var polygonPath_Middle = {
 	
     "금왕중심골목형상점가(음성)" : [ 
 		new kakao.maps.LatLng(36.992358506117895, 127.5887452076944), 
-		new kakao.maps.LatLng(36.992358609944134, 127.58874517727664) 
+		new kakao.maps.LatLng(36.992358609944134, 127.58874517727664),
 		new kakao.maps.LatLng(36.992358609944134, 127.58874517727664), 
 		new kakao.maps.LatLng(36.992358701284424, 127.58874524592375), 
 		new kakao.maps.LatLng(36.992402312863156, 127.58878171572344), 
@@ -988,7 +988,7 @@ var polygonPath_Middle = {
 		new kakao.maps.LatLng(36.992250852245185, 127.58885711217386), 
 		new kakao.maps.LatLng(36.9921925201411, 127.58880463131794), 
 		new kakao.maps.LatLng(36.992192442194245, 127.58880455373465), 
-		new kakao.maps.LatLng(36.992192536626966, 127.58880451370219), 
+		new kakao.maps.LatLng(36.992192536626966, 127.58880451370219) 
 ],
 
 	"금왕중심골목형상점가(음성)-구역1" : [ 
@@ -3085,6 +3085,7 @@ var polygonPath_Middle = {
 
 
 };
+
 
 
 
