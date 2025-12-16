@@ -100,6 +100,20 @@ var polygonPath_Middle = {
         new kakao.maps.LatLng(36.90175309846445, 127.5324801834293), 
         new kakao.maps.LatLng(36.90148031201566, 127.5328721869978), 
         ],
+
+
+     "상산나들이(진천) 골목형상점가" : [ 
+        new kakao.maps.LatLng(36.85392519878031, 127.4413756620884), 
+        new kakao.maps.LatLng(36.85395718947882, 127.4413336647596), 
+        new kakao.maps.LatLng(36.85396121599105, 127.4407922006713), 
+        new kakao.maps.LatLng(36.85393117601297, 127.4407471773842), 
+        new kakao.maps.LatLng(36.85388568349398, 127.4408229639896), 
+        new kakao.maps.LatLng(36.85385055275611, 127.4409212516987), 
+        new kakao.maps.LatLng(36.85387392383705, 127.4413615824936), 
+        ],
+
+
+
     
         "내수전통시장(청주)" : [ 
                 new kakao.maps.LatLng(36.72561931136957, 127.53471258107643), 
@@ -818,6 +832,7 @@ var polygonPath_Middle = {
     ],
     
 };
+
 
 
 
