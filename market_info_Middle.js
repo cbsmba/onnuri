@@ -782,6 +782,24 @@ var polygonPath_Middle = {
         new kakao.maps.LatLng(36.77444540713928, 127.6386903372179), 
         new kakao.maps.LatLng(36.77455087342563, 127.6386607371607), 
     ],
+
+     "맹동혁신골목형상점가" : [ 
+        new kakao.maps.LatLng(36.90970796203827, 127.5456523861762), 
+        new kakao.maps.LatLng(36.9104567760097, 127.5442121210936), 
+        new kakao.maps.LatLng(36.91237395510029, 127.5457372997313), 
+        new kakao.maps.LatLng(36.91278825051257, 127.544925039237), 
+        new kakao.maps.LatLng(36.91112640425586, 127.543596202179), 
+        new kakao.maps.LatLng(36.91100446201116, 127.5439068553128), 
+        new kakao.maps.LatLng(36.91066097149641, 127.5436301788116), 
+        new kakao.maps.LatLng(36.91085980766467, 127.5428399575434), 
+        new kakao.maps.LatLng(36.90939895584972, 127.5416366819735), 
+        new kakao.maps.LatLng(36.90986600717137, 127.5406509406832), 
+        new kakao.maps.LatLng(36.90966288503635, 127.5405489150042), 
+        new kakao.maps.LatLng(36.90772048408287, 127.5444330324001), 
+        new kakao.maps.LatLng(36.90775029036597, 127.5445896430235), 
+        new kakao.maps.LatLng(36.9086641278624, 127.5448788360795), 
+    ],
     
 };
+
 
