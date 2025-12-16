@@ -84,6 +84,23 @@ var polygonPath_Middle = {
             new kakao.maps.LatLng(36.85683740118752, 127.44219276848774)
             ],
 
+     "진천혁신 골목형상점가" : [ 
+        new kakao.maps.LatLng(36.90518350087444, 127.5368792984507), 
+        new kakao.maps.LatLng(36.90556241036244, 127.5363712574472), 
+        new kakao.maps.LatLng(36.9057817152999, 127.5357576119412), 
+        new kakao.maps.LatLng(36.90574232445456, 127.5351242584257), 
+        new kakao.maps.LatLng(36.90540644383871, 127.5345719740216), 
+        new kakao.maps.LatLng(36.90327987433088, 127.5332935451582), 
+        new kakao.maps.LatLng(36.90311738474945, 127.5335668997788), 
+        new kakao.maps.LatLng(36.90344588383631, 127.5338004940511), 
+        new kakao.maps.LatLng(36.90326319373713, 127.5340281750343), 
+        new kakao.maps.LatLng(36.90278324798616, 127.5335552337325), 
+        new kakao.maps.LatLng(36.90307692444696, 127.5331386074541), 
+        new kakao.maps.LatLng(36.90184912266137, 127.5323328989563), 
+        new kakao.maps.LatLng(36.90175309846445, 127.5324801834293), 
+        new kakao.maps.LatLng(36.90148031201566, 127.5328721869978), 
+        ],
+    
         "내수전통시장(청주)" : [ 
                 new kakao.maps.LatLng(36.72561931136957, 127.53471258107643), 
                 new kakao.maps.LatLng(36.72409722878396, 127.5357425492296), 
@@ -801,5 +818,6 @@ var polygonPath_Middle = {
     ],
     
 };
+
 
 
